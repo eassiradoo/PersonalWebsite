@@ -1,0 +1,146 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+.hero{
+   /*
+    background-color:rgb(232, 247, 242);
+    */
+    background-image: url("IMG_0110.JPG");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logos {
+    color:white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.logos:hover{
+    color:darksalmon
+}
+
+span {
+    color: darksalmon;
+}
+
+span:hover{
+    color: white;
+}
+
+nav ul li {
+    list-style-type: armenian;
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+nav ul li a:hover{
+    color: darksalmon;
+    transition: .4s;
+}
+
+.btn {
+    background-color: white;
+    color: darksalmon;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 6px 15px;
+    border-radius: 30px;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    background-color: darksalmon;
+    color: white;
+}
+
+.content {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+h1{
+    color:white;
+    margin: 20px 10px 20px;
+    background-color: darksalmon;
+    font-size: 35px;
+}
+
+h3{
+    color: darksalmon;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    margin: 20px 10px;
+    background-color: white;
+}
+
+h4{
+    color:white;
+    letter-spacing: 12px;
+    font-size: 20px;
+    background-color: darksalmon;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: white;
+}
+
+.about img{
+    height: auto;
+    width: 430px;
+}
+
+.about-text{
+    width: 550px;
+}
+
+.button{
+
+}
+
+.main {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-text h2{
+    color: white;
+    font-size: 75px;
+}
