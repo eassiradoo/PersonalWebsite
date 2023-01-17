@@ -127,8 +127,18 @@ h4{
     width: 550px;
 }
 
-.button{
+button{
+    background-color: darksalmon;
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 30px;
+} 
 
+button:hover{
+    background-color: white;
+    color: darksalmon;
+    font-weight:bold;
+    cursor: pointer;
 }
 
 .main {
@@ -141,6 +151,25 @@ h4{
 }
 
 .about-text h2{
-    color: white;
+    color: black;
     font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color:black;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.about-text p{
+    color: black;
+    margin-bottom: 45px;
+    letter-spacing: 1px;
+    line-height: 28px;
+
+
 }
