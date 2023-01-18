@@ -79,7 +79,6 @@ nav ul li a:hover{
 .btn:hover{
     background-color: darksalmon;
     color: white;
-    transform: scale(1.1)
 }
 
 .content {
@@ -300,6 +299,21 @@ footer p{
     color: black;
     font-weight: bold;
    
+}
+
+.github-icon{
+    color: black;
+    font-size: 20px;
+}
+
+.linkedin-icon{
+    color: black;
+    font-size: 20px;
+}
+
+.email-icon{
+    color: black;
+    font-size: 20px;
 }
 
 .end{
