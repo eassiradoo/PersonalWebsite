@@ -7,9 +7,6 @@
 }
 
 .hero{
-   /*
-    background-color:rgb(232, 247, 242);
-    */
     background-image: url("IMG_0110.JPG");
     height: 100vh;
     width: 100%;
@@ -106,10 +103,10 @@ h3{
 }
 
 h4{
-    color:white;
-    letter-spacing: 12px;
+    color:darksalmon;
     font-size: 20px;
-    background-color: darksalmon;
+    background-color: white;
+    margin: 10px;
 }
 
 .about{
@@ -320,4 +317,105 @@ footer p{
     font-size: 14px;
     font-weight: bold;
     color: black;
+}
+
+/*
+Orgs 
+*/
+
+.org-headers p {
+    color: black;
+    margin: 10px ;
+    font-weight: bold;
+    font-size: larger;
+    text-align: center;
+}
+
+.org-headers h1{
+    color: black;
+    text-align: center;
+    margin: 30px;
+}
+
+.card-colorstack h6{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.card-colorstack{
+    border-radius: 20px;
+    height: 365px;
+    width: 335px;
+    padding: 20px 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.card-colorstack i {
+    font-size: 30px;
+    display: block;
+    margin: 15px 10px;
+    color: darksalmon;
+}
+
+
+.card-MLT{
+    border-radius: 20px;
+    height: 365px;
+    width: 335px;
+    padding: 20px 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.card-MLT i {
+    font-size: 30px;
+    display: block;
+    margin: 15px 10px;
+    color: darksalmon;
+}
+
+.card-CodePath{
+    border-radius: 20px;
+    height: 365px;
+    width: 335px;
+    padding: 20px 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.card-CodePath i {
+    font-size: 30px;
+    display: block;
+    margin: 15px 10px;
+    color: darksalmon;
+}
+
+
+.card-RTC{
+    border-radius: 20px;
+    height: 365px;
+    width: 335px;
+    padding: 20px 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    margin: 10px 30px;
+}
+
+.card-RTC i {
+    font-size: 30px;
+    display: block;
+    margin: 15px 10px;
+    color: darksalmon;
 }
