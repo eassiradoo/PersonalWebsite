@@ -24,8 +24,11 @@ There are a few options to run this program. You can:
 1. Type "start index.html" into the terminal
 
 if (using VSCode):
+
     try 2 and/or 3
+
 2. Select the "go live" button if using VSCode
+
 3. Right click on the index.html file and select "Open with Live Server" or use Alt+L+Alt+O
 
 ### style.css
