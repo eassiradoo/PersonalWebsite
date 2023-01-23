@@ -419,3 +419,108 @@ Orgs
     margin: 15px 10px;
     color: darksalmon;
 }
+
+/* .card-NUWIT{
+    border-radius: 20px;
+    height: 365px;
+    width: 335px;
+    padding: 20px 5px;
+    position: relative;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    margin: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-NUWIT i {
+    font-size: 30px;
+    display: block;
+    margin: 15px 10px;
+    color: red;
+    text-align: center;
+} */
+
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+
+.card-RTC h6 span{
+    color:rebeccapurple;
+    font-size: larger;
+}
+
+.card-MLT h6 span{
+    color:rebeccapurple;
+    font-size: larger;
+}
+
+.card-colorstack h6 span{
+    color:rebeccapurple;
+    font-size: larger;
+}
+
+.card-CodePath h6 span{
+    color:rebeccapurple;
+}
+
+.card-RTC h6 {
+    color:black;
+    font-size: 14px;
+}
+
+.card-MLT h6 {
+    color:black;
+    font-size: 14px;
+}
+
+.card-colorstack h6 {
+    color:black;
+    font-size: 14px;
+}
+
+.card-CodePath h6 {
+    color:black;
+    font-size: 14px;
+}
+
+
+/*
+About Me
+*/
+
+.about_me-headers p{
+    margin: 10px;
+}
+
+.about_me-headers h2{
+    margin: 40px 8px 10px;
+}
+
+.about_me-headers h5{
+    margin: 20px;
+    color: rgb(77, 37, 116);
+    text-align: center;
+}
+
+.about_me-headers span{
+    color:rgb(172, 109, 88);
+    font-weight: bold;
+}
+
+.house-icon {
+    color: white;
+}
+
+/* .message {
+    display: none;
+}
+
+.house-icon:hover + .message{
+    display: block;
+    font-size: 12px;
+} */

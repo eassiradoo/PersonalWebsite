@@ -10,6 +10,11 @@ Functionality as of 1/20/23:
  - Created an Orgs page that can be accessed by clicking "Orgs" at the 
  top of the home screen nav bar.
 
+ Functionality as of 1/23/23:
+ - Developed the "About Me" page with sections on writing, tennis, and Morgan Stanley
+    - Also features introductory paragraph
+ - Includes spanned elements and indentational CSS elements
+ - Added home button to return to main page 
 ---
 
 ### index.html
